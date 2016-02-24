@@ -15,9 +15,7 @@ env:
     - M2=two
 
 build:
-  #pre_ci:
-   # - docker build -t=shippabledocker/sample_node .
-
+  
   ci:
     - ps -eax
     - ls -al
