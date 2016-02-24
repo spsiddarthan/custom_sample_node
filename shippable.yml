@@ -15,11 +15,9 @@ env:
     - M2=two
 
 build:
-  
   ci:
     - ps -eax
     - ls -al
-    
 
  
       
