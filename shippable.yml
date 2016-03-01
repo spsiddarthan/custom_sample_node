@@ -23,5 +23,12 @@ integrations:
       - integrationName: siddarthan
         type: docker
 
+
+integrations:
+    hub:
+      - integrationName: sidgcr
+        type: gcr
+      
+
     
  
