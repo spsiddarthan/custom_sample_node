@@ -16,7 +16,7 @@ build:
 
 integrations:
     hub:
-      - integrationName: sidgcr
+      - integrationName: sidgcr1
         type: gcr
         agent_only: true
       - integrationName: sid
