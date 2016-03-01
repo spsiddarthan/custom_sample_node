@@ -19,6 +19,13 @@ integrations:
         type: gcr
         agent_only: true
 
+      - integrationName: sid
+        type: docker
+        agent_only: true
+        
+      - integrationName: siddarthan
+        type: docker
+        agent_only: true  
 
 
 
