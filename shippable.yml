@@ -14,8 +14,7 @@ integrations:
     hub:
       - integrationName: siddarthan
         type: docker
-        agent_only: true 
-      
+
     
     
  
