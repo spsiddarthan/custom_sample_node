@@ -17,6 +17,7 @@ integrations:
     hub:
       - integrationName: sidgcr
         type: gcr
+        agent_only: true
 
 
 
