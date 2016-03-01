@@ -1,5 +1,6 @@
 # Language setting
 language: node_js
+build_image : siddarthan/docker-build-nodejs
 # Version number
 node_js:
   - 0.12
