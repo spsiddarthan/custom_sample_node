@@ -13,6 +13,15 @@ build:
       image_tag: latest
       pull: true
 
+integrations:
+    hub:
+      - integrationName: sidgcr
+        type: gcr
+        agent_only: true
+      - integrationName: sid
+        type: docker
+      - integrationName: siddarthan
+        type: docker
 
 
 
