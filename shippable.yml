@@ -14,14 +14,7 @@ build:
       pull: true
 
 
-integrations:
-    hub:
-      - integrationName: sidgcr
-        type: gcr
-      - integrationName: sid
-        type: docker
-      - integrationName: siddarthan
-        type: docker
+
 
 
     
