@@ -16,12 +16,12 @@ build:
 
 integrations:
     hub:
-      - integrationName: sidgcr1
+      - integrationName: sidgcr
         type: gcr
         agent_only: true
       - integrationName: sid
         type: docker
-      - integrationName: siddarthan1
+      - integrationName: siddarthan
         type: docker
 
 
