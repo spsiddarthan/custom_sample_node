@@ -16,14 +16,13 @@ build:
     post_ci:
       - ls
       - docker build -t siddarthan/custom_sample_node:latest .
-      -docker push siddarthan/custom_sample_node:latest
-
+      - docker push siddarthan/custom_sample_node:latest
 
 integrations:
     hub:
       - integrationName: siddarthan
         type: docker
-
+        agent_only: true 
     
     
  
