@@ -12,11 +12,6 @@ build:
       image_name: drydock/u14pyt
       image_tag: latest
       pull: true
-      options: --privileged=true
-    post_ci:
-      - ls
-      - docker build -t siddarthan/custom_sample_node:latest .
-      - docker push siddarthan/custom_sample_node:latest
 
 integrations:
     hub:
@@ -28,6 +23,7 @@ integrations:
     hub:
       - integrationName: sidgcr
         type: gcr
+        agent_only: true
       
 
     
