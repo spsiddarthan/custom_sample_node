@@ -19,7 +19,7 @@ integrations:
       - integrationName: sidgcr
         type: gcr
         agent_only: true
-      - integrationName: siddarthan
+      - integrationName: sid
         type: docker
 
 
