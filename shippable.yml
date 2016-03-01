@@ -7,8 +7,14 @@ build:
   ci:
     - ps -eax
     - ls -al
-    
-    
+
+
+integrations:
+    hub:
+      - integrationName: siddarthan
+        type: docker
+        pull_only: true 
+      
     
     
  
