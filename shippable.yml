@@ -21,6 +21,8 @@ integrations:
         agent_only: true
       - integrationName: sid
         type: docker
+      - integrationName: siddarthan
+        type: docker
 
 
     
