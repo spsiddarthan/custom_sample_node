@@ -4,10 +4,17 @@ build_image : siddarthan/u14nod
 # Version number
 node_js:
   - 0.12
+
+
 build:
-  ci:
-    - ps -eax
-    - ls -al
+
+    pre_ci_boot:
+      image_name: drydock/u14pyt
+      image_tag: latest
+      pull: true
+      options: --privileged=true
+    post_ci:
+      - ls
 
 
 integrations:
