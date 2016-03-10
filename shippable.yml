@@ -6,29 +6,3 @@ node_js:
   - 0.12
 
 
-build:
-
-    pre_ci_boot:
-      image_name: drydock/u14pyt
-      image_tag: latest
-      pull: true
-
-integrations:
-    hub:
-      - integrationName: sidgcr
-        type: gcr
-        agent_only: true
-
-      - integrationName: sid
-        type: docker
-        agent_only: true
-        
-      - integrationName: siddarthan
-        type: docker
-        agent_only: true  
-
-
-
-
-    
- 
