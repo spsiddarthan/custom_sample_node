@@ -35,7 +35,7 @@ deploy:
 integrations:
   hub:
     - integrationName: "sidq"
-      type: ecr   
+      type: "Private Docker Registry"   
       #branches:
        # except:
         #  - ecr-pre
