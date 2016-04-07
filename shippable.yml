@@ -19,12 +19,6 @@ build:
     image_name:  www.sidocker.in:5000/ubuntu
     image_tag: latest
     pull: true
-    options: '--privileged=true --net=bridge -e FOO=true -e BOO=false'
-
-  ci:
-    - node --version
-    - ps -eax
-    - ls -al
 
 deploy:
   pre_build:
@@ -32,13 +26,5 @@ deploy:
     - ls -al
 
 
-integrations:
-  hub:
-    - integrationName: "sidq"
-      type: "Private Docker Registry"   
-      #branches:
-       # except:
-        #  - ecr-pre
-            
-          
+
     
