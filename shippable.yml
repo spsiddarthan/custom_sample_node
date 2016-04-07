@@ -20,6 +20,11 @@ build:
     image_tag: latest
     pull: true
 
+   post_ci:
+     - docker pull ubuntu && docker tag ubuntu www.sidocker.in:5000/ubuntu1
+     - docker push www.sidocker.in:5000/ubuntu1
+     
+
 deploy:
   pre_build:
     - ls
