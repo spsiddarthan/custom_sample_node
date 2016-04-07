@@ -16,7 +16,7 @@ build:
   #  - docker build --rm -t=480971114143.dkr.ecr.us-east-1.amazonaws.com/vidya1-repo1 .
 
   pre_ci_boot:
-    image_name:  https://www.sidocker.in:5000/ubuntu
+    image_name:  www.sidocker.in:5000/ubuntu
     image_tag: latest
     pull: true
     options: '--privileged=true --net=bridge -e FOO=true -e BOO=false'
