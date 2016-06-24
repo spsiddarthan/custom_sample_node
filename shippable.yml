@@ -5,15 +5,14 @@ build:
   #  - docker build --rm -t=480971114143.dkr.ecr.us-east-1.amazonaws.com/vidya1-repo1 .
 
   pre_ci_boot:
-    image_name:  www.sidocker.in:5000/ubuntu
+    image_name: nginx
     image_tag: latest
     pull: true
   
   
   post_ci:
-   # - docker push shippabledocker/sample_node_pp
-    - docker pull ubuntu && docker tag ubuntu www.sidocker.in:5000/ubuntu1
-    - docker push www.sidocker.in:5000/ubuntu1
+   
+    - ls
 
  
 
